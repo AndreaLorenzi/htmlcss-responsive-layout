@@ -8,6 +8,7 @@
     width: 1000px;
     margin-inline: auto;
 }
+/* navbar header */
 header{
     height: 80px;
     background-color: #0084fd;
@@ -44,4 +45,55 @@ header{
     align-items: center;
     color: white;
     display: none;
+}
+/* main */
+/* section 1 con 5 riqadri su due linee di cui 2 sulla prima e tre sulla seconda  */
+.sezione-1{
+    margin-top: 4rem;
+}
+.grid {
+	--gapx: 1rem;
+	--gapy: 2rem;
+}
+
+.cells {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+
+}
+
+.cell .content {
+	height: 200px;
+
+}
+
+
+.grid {
+	overflow: hidden;
+}
+
+.cell {
+	flex-basis: 30.7%;
+    background-color: #b5ddff
+	
+}
+.content{
+    width: 100%
+}
+.cell-hero {
+	flex-basis: 63%;
+    background-color: #b5ddff
+
+}
+.phone{
+    width: 50%;
+    height: 80%;
+    background-image: url(../img/phone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cell h2{
+    color: #0084fd;
 }
