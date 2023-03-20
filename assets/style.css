@@ -82,6 +82,7 @@ header{
 .cell-hero > .content{
     width: 100%;
     display:flex;
+    flex-direction: row;
 }
 .cell-hero {
 	flex-basis: 63%;
@@ -104,7 +105,9 @@ header{
     color: white;
 
 }
-
+.phone{
+    width: 50%;
+}
 .telephone{
     margin-top: 37px;
     margin-left: 30px;
@@ -113,4 +116,17 @@ header{
 }
 .cell h2{
     color: #0084fd;
+}
+.fa-solid{
+font-size: 40px;
+    color: #0084fd;
+}
+.content{
+text-align: center;
+display: flex;
+flex-direction: column;
+gap: 2rem;
+margin-bottom: 20px;
+margin-top: 20px;
+
 }
